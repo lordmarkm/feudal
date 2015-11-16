@@ -1,11 +1,48 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+# generated files
+bin
+target
+webapp-build
+generated
+*.log
+bower_components
+temp
 
-# Other files and folders
-.settings/
+# dev folders
+logs
+build.sh
+run.sh
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Eclipse Ignores
+.classpath
+.project
+.settings
+.metadata
+.checkstyle
+*.eclipse.jdt.core.prefs
+
+# IDEA Ignores
+*.iml
+*.ipr
+*.iws
+.idea
+
+# MAC ignores
+.DS_Store
+
+#JRebel Ignores
+rebel.xml
+
+#gedit temp files
+*~
+#File Repository
+file-repository
+node
+node_modules
+lucene
+
+#Reports tmp
+mha-web/mha-reports-kettle
+
+#test scripts
+/test-scripts/*.pyc
+/test-scripts/z_*.json
